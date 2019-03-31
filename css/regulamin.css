@@ -7,17 +7,44 @@ body
 .top
 {
   text-align: center;
+  background-color: #303030;
   margin-top: 65px;
   font-size: 65px;
   color: #fff;
-  border: 3px solid white;
-  border-radius: 5px;
-  width: 650px;
+  border: 3px solid #1360db;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
 }
 
 .reg
 {
   color: white;
   border-radius: 5px;
-  border: 3px solid white;
+  border: 3px solid #1360db;
+  background-color: #303030
+}
+
+.back
+{
+  text-align: center;
+  font-size: 65px;
+  color: #fff;
+  border: 3px solid #1360db;
+  border-radius: 5px;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 17px;
+}
+
+a
+{
+  text-decoration: none !important;
+}
+
+a.back:visited
+{
+  color: white;
 }
