@@ -25,7 +25,7 @@ a.logo
   color: #fff;
   text-decoration: none;
   text-align: center;
-  font-size: 15px;
+  font-size: 60px;
 }
 
 .navbar
@@ -40,7 +40,7 @@ a.logo
 
 .content
 {
-
+  width: 1000px;
 }
 
 .social
