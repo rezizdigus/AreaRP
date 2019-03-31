@@ -6,18 +6,15 @@ body
 
 .top
 {
-  text-align: center;
-  background-color: #303030;
-  margin-top: 65px;
-  font-size: 65px;
-  color: #fff;
-  border: 3px solid #1360db;
-  border-radius: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 550px;
+  color: #303030;
+  font-size: 50px;
 }
 
+.sectop
+{
+  color: #303030;
+  font-size: 45px;
+}
 .reg
 {
   color: white;
