@@ -1,39 +1,47 @@
 body
 {
+  margin: 0 !important;
   text-decoration: none;
   background-color: #000;
 }
 
 .top
 {
-  color: #303030;
+  color: #ffffff;
+  text-align: center;
   font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.sectop
+a.logo
 {
-  color: #303030;
-  font-size: 45px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 80px;
 }
+
 .reg
 {
   color: white;
   border-radius: 5px;
   border: 3px solid #1360db;
+  margin: 5px;
   background-color: #303030
 }
 
-.back
+.navbar
 {
-  text-align: center;
-  font-size: 65px;
-  color: #fff;
-  border: 3px solid #1360db;
-  border-radius: 5px;
-  width: 650px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 17px;
+  width: 100%;
+	padding: 10px 0;
+	background-color: #c34f4f;
+	text-align: center;
+	border-top: 1px solid #751b1b;
+	border-bottom: 1px solid #751b1b;
+  margin-bottom: 10px;
 }
 
 a
@@ -44,4 +52,77 @@ a
 a.back:visited
 {
   color: white;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #751b1b;
+}
+
+ol > li:hover
+{
+	background-color: #cf6969;
+}
+
+ol > li:hover > a
+{
+	color: #451717;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#cf6969;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751b1b;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #c34f4f;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #451717;
 }
