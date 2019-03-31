@@ -1,5 +1,23 @@
 body
 {
   text-decoration: none;
-  color: #d3d3d3;
+  background-color: #000;
+}
+
+.top
+{
+  text-align: center;
+  margin-top: 65px;
+  font-size: 65px;
+  color: #fff;
+  border: 3px solid white;
+  border-radius: 5px;
+  width: 650px;
+}
+
+.reg
+{
+  color: white;
+  border-radius: 5px;
+  border: 3px solid white;
 }
