@@ -2,4 +2,4 @@
 
   Witamy na stronie AreaRP
 
-</body
+</body>
