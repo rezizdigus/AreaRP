@@ -25,22 +25,22 @@ a.logo
   color: #fff;
   text-decoration: none;
   text-align: center;
-  font-size: 15px;
+  font-size: 60px;
 }
 
 .navbar
 {
   width: 100%;
 	padding: 10px 0;
-	background-color: #c34f4f;
+	background-color: #1b5bc1;
 	text-align: center;
-	border-top: 1px solid #751b1b;
-	border-bottom: 1px solid #751b1b;
+	border-top: 1px solid #071833;
+	border-bottom: 1px solid #071833;
 }
 
 .content
 {
-
+  width: 1000px;
 }
 
 .social
@@ -62,6 +62,7 @@ ol
 	height: 35px;
 	line-height: 200%;
 	display: inline-block;
+  transition: 1s ease-in-out;
 }
 
 ol a
@@ -77,6 +78,7 @@ ol > li
 	width: 150px;
 	height: 40px;
 	border-right: 1px dashed #751b1b;
+  transition: 0.2s ease-in-out;
 }
 
 ol > li:first-child
@@ -86,7 +88,7 @@ ol > li:first-child
 
 ol > li:hover
 {
-	background-color: #cf6969;
+	background-color: #116be2;
 }
 
 ol > li:hover > a
@@ -110,15 +112,16 @@ ol > li:hover > ul
 
 ol > li > ul > li
 {
-	background-color:#cf6969;
+	background-color:#116be2;
 	position: relative;
 	z-index: 100;
 	border-top: 1px dashed #751b1b;
+  transition: 0.2s ease-in-out;
 }
 
 ol > li > ul > li:hover
 {
-	background-color: #c34f4f;
+	background-color: #103a7c;
 }
 
 ol > li > ul > li:hover > a
