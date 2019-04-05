@@ -86,6 +86,11 @@ ol > li:first-child
 	border-left: 1px dashed #751b1b;
 }
 
+li.konto
+{
+  background-color: #2f911e;
+}
+
 ol > li:hover
 {
 	background-color: #116be2;
