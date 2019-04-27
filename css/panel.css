@@ -5,13 +5,18 @@ body
 
 .forum
 {
-  margin-left: 85px;
-  margin-right: 750px;
   margin-top: 125px;
+  text-align: center;
   font-size: 55px;
   color: #1360db;
-  border: 5px solid #303030;
-  border-color: #303030;
+  border: 5px solid #1360db;
+  border-color: #1360db;
+  transition: border-radius 0.6s ease-in-out;
+}
+
+.forum:hover
+{
+  border-radius: 125px;
 }
 
 .top
@@ -24,6 +29,24 @@ body
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+.server
+{
+  margin-top: 200px;
+  text-align: center;
+  font-size: 55px;
+  color: #1360db;
+  border: 5px solid #1360db;
+  border-color: #1360db;
+  transition: border-radius 0.6s ease-in-out;
+}
+
+.server:hover
+{
+  border-radius: 125px;
+}
+
+
 
 a.logo
 {

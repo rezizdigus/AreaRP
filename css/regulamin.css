@@ -28,19 +28,19 @@ a.logo
 {
   color: white;
   border-radius: 5px;
-  border: 3px solid #1360db;
+  border: 3px solid #1b5bc1;
   margin: 5px;
-  background-color: #303030
+  background-color: #303030;
 }
 
 .navbar
 {
   width: 100%;
 	padding: 10px 0;
-	background-color: #c34f4f;
+	background-color: #1b5bc1;
 	text-align: center;
-	border-top: 1px solid #751b1b;
-	border-bottom: 1px solid #751b1b;
+	border-top: 1px solid #071833;
+	border-bottom: 1px solid #071833;
   margin-bottom: 10px;
 }
 
